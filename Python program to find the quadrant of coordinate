@@ -1,0 +1,13 @@
+x=int(input('Enter the values for X: '))
+y=int(input('Enter the values for Y: '))
+
+if x>0 and y>0:
+  print ('x,y in 1st quandrant')
+elif x<0 and y>0:
+  print ('x,y in 2nd quandrant')
+elif x<0 and y<0:
+  print ('x,y in 3rd quandrant')
+elif x>0 and y<0:
+  print ('x,y in 4th quandrant')
+elif x==0 and y==0:
+  print ('x,y at the origin')
